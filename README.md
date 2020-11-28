@@ -10,6 +10,8 @@ I have used 3 notebooks as a part of this solution.
 2. HR Analytics Modelling.ipynb, where tasks such as data pre-processing, feature engineering, modelling, ensembling and hyperparameter tuning have been taken care of. 
 3. HR Analytics - Final Prediction.ipynb: This is where we first pre-process and engineer the features in test data, in a similar manner to that of train data and then used the best performing models in HR Analytics Modelling.ipynb notebook to predict the outcome for test data.
 
+You can go throught the notebooks one by one for more detailed analysis.
+
 There are 3 data files:
 1. train.csv: Training data
 2. test.csv: Test data
