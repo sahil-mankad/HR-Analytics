@@ -7,12 +7,14 @@ Contest Link: https://datahack.analyticsvidhya.com/contest/wns-analytics-hackath
 2. Directory Structure:
 
 ├── Notebooks
-│   ├── Eda HR Analytics.ipynb
+   
+|   ├── Eda HR Analytics.ipynb
 │   ├── HR Analytics - Final Prediction.ipynb
 │   ├── HR Analytics Modelling.ipynb
 
 ├── Data
-│   ├── train.csv
+   
+├── train.csv
 │   ├── test.csv
 │   ├── sample_submission.csv
 
