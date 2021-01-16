@@ -12,13 +12,18 @@ https://datahack.analyticsvidhya.com/contest/wns-analytics-hackathon-2018-1/
 The jupyter notebooks were all executed in google colab. You will be able to see cells for where I have installed dependencies in colab, one of the examples is: 
 ! pip install catboost 
 If you run the statement in colab it installs the library in colab. If you want to run it on your local pc, use pip install in your command prompt.
-For the model deployment part, the dependencies are:
+For the model deployment part, the dependencies can be installed as follows:
 
 !pip install -q pyngrok
 
 !pip install -q streamlit
 
 !pip install -q streamlit_ace
+
+!pip install pickle
+
+! pip install catboost
+
 
 ## Details about each of the project files
 I have used 3 notebooks as a part of this solution.
@@ -33,6 +38,6 @@ There are 3 data files:
 2. test.csv: Test data
 3. sample_submission.csv: Examples of how the final outcome for submission should be like. 
 
-I have also added the code for model deployment in the repository in the folder named model deployment. This consists of the trained catboost classifier,the deploy.py file which has the code for deploying app and the session state.py file which will help you create a session for your app. You can also find it here: https://drive.google.com/file/d/1D1HLyHfCAY2Bt0aVMFHVlLsSg4mUkon-/view. This will help you create a local app for the model.
+I have also added the code for model deployment using streamlit in the repository in the folder named model deployment. This consists of the trained catboost classifier,the deploy.py file which has the code for deploying app and the session state.py file which will help you create a session for your app. You can also find it here: https://drive.google.com/file/d/1D1HLyHfCAY2Bt0aVMFHVlLsSg4mUkon-/view. This will help you create a local app for the model.
 
 
