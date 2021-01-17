@@ -44,6 +44,6 @@ There are 3 data files:
 2. test.csv: Test data
 3. sample_submission.csv: Examples of how the final outcome for submission should be like. 
 
-I have also added the code for model deployment using streamlit in the repository in the folder named model deployment. This consists of the trained catboost classifier,the deploy.py file which has the code for deploying app and the session state.py file which will help you create a session for your app. You can also find it here: https://drive.google.com/file/d/1D1HLyHfCAY2Bt0aVMFHVlLsSg4mUkon-/view. This will help you create a local app for the model.
+I have also added the code for model deployment using streamlit in the repository in the folder named model deployment. This consists of the trained catboost classifier as a .pkl file,the deploy.py file which has the code for deploying app and the session state.py file which will help you create a session for your app. You can also find it here: https://drive.google.com/file/d/1D1HLyHfCAY2Bt0aVMFHVlLsSg4mUkon-/view. This will help you create a local app for the model.
 
 
