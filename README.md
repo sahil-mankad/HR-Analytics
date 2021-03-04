@@ -9,7 +9,7 @@ https://datahack.analyticsvidhya.com/contest/wns-analytics-hackathon-2018-1/
 ## Deploying the model locally
 I have also added the code to deploy the model locally as a simple webpage, which is a form to collect details and predict outcome based on it. All the files neede are present in the Model Deployment folder. Download the dependencies given in below section, fire up your command prompt,change directory to the Model Deployment folder and run the below command
 
-streamlit run deploy.py
+streamlit streamlit_app.py
 
 Enter the details on web page, click on the predict button and voila, you'll get the prediction.
 
